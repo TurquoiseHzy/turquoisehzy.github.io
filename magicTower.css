@@ -1,0 +1,235 @@
+.body-header{	height: 200px;
+	font-size:100px;
+	font-family:felix titling;
+	text-align:center;
+	text-shadow: 5px 5px 5px #FF0000;
+}
+.title-cat{
+	height:100px;
+	width:50px;
+}
+.body-main{	height:1000px;
+			}
+.game-info{
+			font-size:30px;
+			text-align:center;
+			padding:50px;
+			}
+body{
+	color:rgb(30,0,30);
+	background:rgb(250,248,239);
+	font-family:Verdana;
+}
+.body-footer{
+				position:realtive;
+				font-size:10px;
+				text-align:center;
+				}
+.game-screen-block{
+					padding :2%;
+					position :realtive;
+					top:	0px;
+					width :540px;
+					height :700px;
+					margin :auto;
+					background :rgb(90,20,77);
+					}
+.map-show{
+	width:540px;
+	height:630px;
+	position: absolute;
+	top:280px;
+	overflow:hidden;
+}
+.cat{
+	width:200px;
+	height:200px;
+	margin:20px;
+}
+
+#cat1{
+	-webkit-transform:rotate(30deg);
+	float:left;
+}
+#cat2{
+	-webkit-transform:rotate(-30deg);
+	float:right;
+}
+.pc{
+	width:200px;
+	height:200px;
+	margin:20px;
+}
+#pc1{
+	-webkit-transform:rotate(-15deg);
+	float:left;
+}
+#pc2{
+	-webkit-transform:rotate(15deg);
+	float:right;
+}
+.map{
+	position:relative;
+	overflow:hidden;
+	width:1800px;
+	height:1800px;
+	background-size:540px 630px;
+	background-repeat:no-repeat;
+	background-image:url(chest-show2.png),url(background-cave.jpg) ;
+	}
+.game-stat{
+	font-size :24px;
+	text-align:center;
+	top:630px;
+	background:rgb(255,255,150);
+	height:30px;
+	width:100%;
+	}
+.map-row{
+	height :90px;
+	overflow:hidden;
+}
+.map-block{
+	height:90px;
+	width:90px;
+	position:realtive;
+	float:left;
+}
+.map-block-enemy{
+	background-size:90px 90px;
+}
+.enemy0{
+	background-image:url(enemy0.png),url(background-cave.jpg);
+}
+.enemy1{
+	background-image:url(enemy1.png),url(background-cave.jpg);
+}
+.enemy2{
+	background-image:url(enemy2.png),url(background-cave.jpg);
+}
+.enemy3{
+	background-image:url(enemy3.png),url(background-cave.jpg);
+}
+.map-block-space{
+	background-image:url(background-cave.jpg);
+}
+.map-block-chest-open{
+	background-image:url(chest-open.png),url(background-cave.jpg);
+	background-size:90px 90px;
+}
+.map-block-chest-close{
+	background-image:url(chest-close.png),url(background-cave.jpg);
+	background-size:90px 90px;
+}
+.map-block-nextstage{
+	background-image:url(next-stage.png),url(background-cave.jpg);
+}
+#player{
+	margin-left:5px;
+	margin-top:5px;
+	left:10px;
+	top:10px;
+	height:80px;
+	width:80px;
+	background-size:80px 80px;
+	float:left;
+}
+.male0{
+	background-image:url(player-male0.png);
+}
+.male1{
+	background-image:url(player-male1.png);
+}
+.male2{
+	background-image:url(player-male2.png);
+}
+.male3{
+	background-image:url(player-male3.png);
+}
+.female0{
+	background-image:url(player-female0.png);
+}
+.female1{
+	background-image:url(player-female1.png);
+}
+.female2{
+	background-image:url(player-female2.png);
+}
+.female3{
+	background-image:url(player-female3.png);
+}
+.item-opening{
+	height:300px;
+	width:300px;
+	position:absolute;
+	margin:120px;
+	opacity:0.9;
+	background-image:url(chest-show.png);
+	z-index : 1;
+}
+.item-opening p{
+	margin: 30px 40px;
+}
+.shining{
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:1230px;
+	width:100%;
+	background:white;
+	z-index :2;
+}
+.fight-bg{
+	height:300px;
+	width:500px;
+	position:absolute;
+	margin-top:100px;
+	margin-left:17px;
+	opacity:0.9;
+	background:black;
+	z-index : 1;
+}
+.fighting-pc{
+	height:200px;
+	width:100px;
+	margin-top:30px;
+	margin-left:100px;
+	position:relative;
+	background-size:100px 200px;
+	float:left;
+	z-index:2;
+}
+.fight-male{
+	background-image:url(fight-male.png);
+}
+.fight-female{
+	background-image:url(fight-female.png);
+}
+.fighting-enemy{
+	height:200px;
+	width:100px;
+	margin-top:30px;
+	margin-right:100px;
+	position:relative;
+	background-image:url(fight-enemy.png);
+	background-size:100px 200px;
+	float:right;
+	z-index:2;
+}
+.fighting-hp{
+	height:30px;
+	width:70px;
+	position:realtive;
+	margin-top:20px;
+	text-align:center;
+	font-size:18px;
+	background:rgb(238,219,192);
+}
+.pchp{
+	margin-left:98px;
+	float:left;
+}
+.emhp{
+	margin-right:115px;
+	float:right;
+}

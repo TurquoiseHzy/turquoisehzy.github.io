@@ -1,116 +1,36 @@
 <!DOCTYPE>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Ziyi Huang's HomePage</title>
-	<style type = "text/css">
-	body{
-	background:url(http://www.aomy.com/attach/2011-09/1316481303uSu6.jpg);
-	padding-top :1%;
-	padding-bottom :1%;
-	padding-left :10%;
-	padding-right :10%;
-	}
-	#titleBar{
-	font-size:30px;
-	padding-top:30;
-	text-align:center;
-	height:300;
-	background-size:100% 100%;
-	}
-	
-	.block{
-	background:rgb(232,232,232)
-	}
-	
-	article{
-	background:rgb(255,255,255);
-	padding : 20;
-	width:900;
-	margin:auto
-	}
-	a{
-	color:rgb(189,45,48)
-	}
-	h1{
-	text-align:center}
-	#ME{
-	text-align:center
-	}
-	#homeworkDisplay{
-	text-align:center
-	}
-	</style>
+<meta charset = "utf-8"/>
+<link rel = "stylesheet" type = "text/css" href = "magicTower.css" />
 </head>
 <body>
-	<div id = "titleBar" class="block">
-		<h1>黄子懿</h1>
+	<div class = "body-header">
+		MY MAGIC TOWER   
+		<img class = "title-cat" src ="fight-enemy.png"/>
+	</div>
+	<div class = "body-main">
+		<img class = "cat" id = "cat1" src ="enemy3.png"/>
+		<img class = "cat" id = "cat2" src ="enemy3.png"/>
 		
-		<img src = "头像.png" width = "80" height = "120" />
-	</div>
-	
-	<div class = "block" id = "ME" >
-		<h1>我是谁</h1>
-		<p>
-			黄子懿，清华大学软件工程系学生，热爱代码、游戏，你可以通过下列方式联系到我。
-			<br/>
-			<a href="http://www.qq.com">QQ</a>:787616424
-			<br/>
-			手机:13683687705
-		</p>
-		<br/>
-	</div>
-	
-	<div class = "block" id ="homeworkDisplay">
-		<h1>作业</h1>
-		<div class = "homework">
-		<a href = "http://turquoisehzy.github.io">作业1（就是他本身）</a>
+		<div class = "game-screen-block">
+			<div class = "map-show">
+				<div class = "map">
+				</div>
+			</div>
+			<div class = "game-stat"  > click to start </div>
 		</div>
 		
-		<div class = "homework">
-		<a href = "http://www.baidu.com">作业2(还没做呢）</a>
-		</div>
-		<br/>
-	</div>
-	
-	
-	<div class = "block" id = "log">
-		<h1>日志</h1>
+		<div class = "game-info">
+			<img class = "pc" id = "pc1" src = "player-male2.png">
+			<img class = "pc" id = "pc2" src = "player-female2.png">
+			使用方向键（←↑→↓）或者wasd操作，积累经验值，击败传送门处的守护者吧！</div>
 		
-		<article>
-		<h2>还想实现的东西</h2>
-		<p>
-		还想实现一些东西，但还没有做：
-		<br/>
-		侧边栏的点击跳转
-		<br/>
-		背景块的点击变色
-		<br/>
-		更好的配色
-		<br/>
-		更多的页面
-		<br/>
-		更炫的操作
-		<br>
-		以上这些会在未来实现。
-		</p>
-		</article>
-		<br/>
-		<article>
-		<h2>日志的标题</h2>
-		<p>
-		这是一个空日志，为表现日志间的效果
-		</p>
-		</article>
-		
-	<br/>
 	</div>
-	<br/>
-	
-	<div id = "footer" align = "center" class = "block">
-	<br/>
-	<address>	如有问题请联系我的邮箱：snake32@vip.qq.com</a>	</address>
-	<br/>
+	<div class = "body-footer">
+		<p>Editor:Ziyi Huang<br/>QQ:787616424</br>TEL:13683687705</br>Email:turquoisehuang@gmail.com</p>
 	</div>
 </body>
+<script src = "jquery-3.0.0.min.js"></script>
+<script src = "magicTower.js"></script>
 </html>
